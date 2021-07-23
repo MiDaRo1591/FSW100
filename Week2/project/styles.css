@@ -1,0 +1,43 @@
+/*
+
+    Make the main headline dark green.
+    Use the font family "Georgia" for the main headline and the sub-headline.
+    Center the text of the main headline and the sub-headline.
+    Give the paragraphs a line height of 25 pixels.
+    Remove the underline from the links. (Hint: Google “How to remove the underline from link (anchor) tags”)
+    Make the "You might also like" label all uppercase.
+    Make an underline appear when you hover over a link.
+    Challenge #1: Make the image 'float' to the left of the body content.
+    Challenge #2: Add some spacing around the image so the text is not 'pressed against it'.
+*/
+h1
+    {
+    color: darkgreen;
+    font-family: Georgia;
+    text-align: center;
+    }
+h2
+    {
+    text-align: center;
+    }
+p
+    {
+    line-height: 25px;
+    }
+a
+    {
+    text-decoration: none;
+    }
+a:hover  
+    {
+        text-decoration: underline; 
+    }
+#YML
+    {
+        text-transform: uppercase;
+    }
+img
+    {
+    padding: 10px;
+    float: left;
+    }
