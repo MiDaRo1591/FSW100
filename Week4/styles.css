@@ -1,0 +1,50 @@
+/*
+To get started, in your VisualStudio Code editor:
+
+Create an html file named: positioning.html.
+Create a styles.css sheet.
+Link your styles.css sheet to your html file.
+
+A fixed horizontal navbar
+Each blog post has a title and date
+Each blog post has a photo. The text wraps around the photo.
+The site has several blog posts and looks nice with proper spacing
+
+*/
+h1.header
+    {
+    color: darkblue;
+    font-family: Georgia;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    }
+p.Adjusted1
+    {
+    color: blue;
+    font-size: 30px;
+    line-height: 5px;
+    }
+
+p.Adjusted2
+    {
+    font-size: 30px;
+    line-height: 25px;
+    }
+p.Adjusted3
+    {
+    font-size: 15px;
+    line-height: 25px;
+    }
+div.solid 
+    {
+    border-width: 5px;
+    border-style: solid;
+    }
+img.side
+    {
+    padding: 10px;
+    float: left;
+    }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- 
+To get started, in your VisualStudio Code editor:
+
+Create an html file named: positioning.html.
+Create a styles.css sheet.
+Link your styles.css sheet to your html file.
+
+A fixed horizontal navbar
+Each blog post has a title and date
+Each blog post has a photo. The text wraps around the photo.
+The site has several blog posts and looks nice with proper spacing
+
+
+Create a website that contains the following:
+
+A fixed horizontal navbar (meaning it is always on the top of the page, even if you scroll down).
+
+A blog-style feed, where each blog post is in the center of the page, and as you scroll down the 
+page, it shows older blog posts. (Note: The blog posts' content can just be hard-coded, meaning 
+it'll all just be on a single page and you can just put filler text (lorem ipsum)).
+
+Each blog post should have a title of some kind.
+
+Each blog post should have the date it was "published".
+
+Each blog post should have a photo of some kind near the top of the text, and the text should wrap 
+around the photo and have a reasonable margin between the photo and the wrapped text.
+
+-->
+<html lang="en-us">
+    
+    <style>
+
+h1.header
+    {
+    color: darkblue;
+    font-family: Georgia;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    }
+p.Adjusted1
+    {
+    color: blue;
+    font-size: 30px;
+    line-height: 5px;
+    }
+
+p.Adjusted2
+    {
+    font-size: 30px;
+    line-height: 25px;
+    }
+p.Adjusted3
+    {
+    font-size: 15px;
+    line-height: 25px;
+    }
+div.solid 
+    {
+    border-width: 5px;
+    border-style: solid;
+    }
+img.side
+    {
+    padding: 10px;
+    float: left;
+    }
+    </style>
+
+    <head>
+        <title>HTML Attributes</title>
+        <link href = "styles.css" />
+    </head>
+
+    <body>   
+        <h1 id = 'header' class = "header">Latest Blogs</h1>
+
+        <div class = solid>
+            <img 
+                src = "https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,pg_1,q_60,w_965/ysejxcgevddf71mpk5rh.jpg"
+                height = "350px"
+                width = "600px" 
+                alt = "Load Fail Display Text"/>
+            <p class = "Adjusted1">Scientists Introducing Group Of Well-Adjusted Humans Into Society</p>
+            <p class = "Adjusted2">7/23/2021</p>
+            <p class = "Adjusted3">Scientiests have descided to release a group of normal, and well-adjusted Humans they have been breeding into the normal affairs of Society. These rare humans who are level-headed and make it a habit to think before they speak have been raised in isolation for a few decades now. "We're worried about how quickly we expose them to environments where demonstrating good sense, and basic human empathy are perceived as signs of weakness and quickly preyed upon, such as FaceBook and Redit, while online gaming will not even be thought of for another five years or more."</p>
+        </div>
+
+        <p> </p> 
+
+        <div class = solid>
+            <img 
+                src = "https://i1.sndcdn.com/avatars-Bqi972sM2fr8wEAD-7S063A-t240x240.jpg"
+                height= "350px"
+                width = "600px" 
+                alt = "Load Fail Display Text"/>
+            <p class = "Adjusted1">Aliens Reveal Themselves To Earth</p>
+            <p class = "Adjusted2">7/16/2021</p> 
+            <p class = "Adjusted3">Aliens have finally revealed themselves to the humans of earth. "We've been watching earth since what you call the Classical Age." Says Shivaljamegalflep "I follow Canada, since I like slice-of-life. But my friends like the American Drama, though the new season is heading in the wrong direction." Yes for years the events of earth have been broadcasted throughout our galaxy as sitcoms and shows and pop culture references. </p>
+        </div>
+
+        <p> </p> 
+
+        <div class = solid>
+            <img
+                src = "https://wpr-public.s3.amazonaws.com/wprorg/styles/resp_orig_custom_user_wide_1x/s3/s3fs-public/wpr/segments/2016/11/6262122778_7a43d113d0_o.jpg?itok=bs0PAoYJ"
+                height= "350px"
+                width = "600px" 
+                alt = "Load Fail Display Text"/>
+            <p class = "Adjusted1">Government Parties Agree To Work Together</p>
+            <p class = "Adjusted2">7/09/2021</p> 
+            <p class = "Adjusted3">The American Government has agreed to band together into a single party. "Documentation showed that we're supposed to oppose each other's ideas to promote growth and improve upon the lives of the people, But in recent years we have devolved into squabbling children." Says Government Official. "I was watching my grand kids fight over the remote and thought they were quoting us, but it turns out we're just acting that way as adults."</p>
+        </div>
+
+            <!-- 
+                <script scr = "JavaScript.js"></script>
+            -->
+    </body>
+</html>
