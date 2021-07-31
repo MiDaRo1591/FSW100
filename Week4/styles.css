@@ -12,7 +12,7 @@ The site has several blog posts and looks nice with proper spacing
 
 */
 h1.header
-    {
+{
     color: darkblue;
     font-family: Georgia;
     text-align: center;
@@ -20,6 +20,12 @@ h1.header
     background-color: white;
     border-width: 5px;
     border-style: solid;
+    }
+p.Adjusted0
+    {
+    color: white;
+    font-size: 30px;
+    line-height: 5px;
     }
 p.Adjusted1
     {
