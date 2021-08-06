@@ -1,0 +1,290 @@
+@media only screen and (min-width: 767px) /* Tablet + */
+{
+    .ColorGrid
+    {
+        width: 90vw;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50px 50px 50px 50px;
+    }
+    .Red
+    {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        color: white;
+        background-color: red;
+    }
+    .Blue
+    {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        color: white;
+        background-color: blue;
+    }
+    .Green
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        color: white;
+        background-color: green;
+    }
+    .Purple
+    {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        color: white;
+        background-color: purple;
+    }
+    .Yellow
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        color: white;
+        background-color: yellow;
+    }
+}
+@media only screen and (max-width: 767px) /* Phone */
+{
+    .ColorGrid
+    {
+        width: 90vw;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    }
+    .Red
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        color: white;
+        background-color: red;
+    }
+    .Blue
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        color: white;
+        background-color: blue;
+    }
+    .Green
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        color: white;
+        background-color: green;
+    }
+    .Purple
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        color: white;
+        background-color: purple;
+    }
+    .Yellow
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        color: white;
+        background-color: yellow;
+    }
+}
+/*      
+            C1  C2  C3  C4   C5
+        R1
+        R2
+        R3 
+        R4
+        R5
+*/
+@media only screen and (max-width: 767px) /* Phone */
+{
+    .Layout
+    {
+        width: 90vw;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    }
+    .Header
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        color: white;
+        background-color: lightgrey;
+    }
+    .Sidebar
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        color: white;
+        background-color: grey;
+    }
+    .Content
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        color: white;
+        background-color: grey;
+    }
+    .Sidebar2
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        color: white;
+        background-color: lightgrey;
+    }
+    .Footer
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        color: white;
+        background-color: grey;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1365px) /* Tablet */
+{
+    .Layout
+    {
+        width: 90vw;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50px 50px 50px 50px 50px;
+    }
+    .Header
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        color: white;
+        background-color: lightgrey;
+    }
+    .Sidebar
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        color: white;
+        background-color: grey;
+    }
+    .Content
+    {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        color: white;
+        background-color: grey;
+    }
+    .Sidebar2
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        color: white;
+        background-color: lightgrey;
+    }
+    .Footer
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        color: white;
+        background-color: grey;
+    }
+}
+@media only screen and (min-width: 1366px) /* Laptop */
+{
+    .Layout
+    {
+        width: 90vw;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50px 50px 50px 50px 50px;
+    }
+    .Header
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        color: white;
+        background-color: lightgrey;
+    }
+    .Sidebar
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        color: white;
+        background-color: grey;
+    }
+    .Content
+    {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        color: white;
+        background-color: grey;
+    }
+    .Sidebar2
+    {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        color: white;
+        background-color: lightgrey;
+    }
+    .Footer
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        color: white;
+        background-color: grey;
+    }
+}
