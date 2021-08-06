@@ -1,6 +1,4 @@
-@media only screen and (min-width: 767px) /* Tablet + */
-{
-    .ColorGrid
+    .ColorGrid1
     {
         width: 90vw;
         display: grid;
@@ -8,7 +6,7 @@
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 50px 50px 50px 50px;
     }
-    .Red
+    .Red1
     {
         grid-column-start: 1;
         grid-column-end: 3;
@@ -17,7 +15,7 @@
         color: white;
         background-color: red;
     }
-    .Blue
+    .Blue1
     {
         grid-column-start: 3;
         grid-column-end: 5;
@@ -26,7 +24,7 @@
         color: white;
         background-color: blue;
     }
-    .Green
+    .Green1
     {
         grid-column-start: 1;
         grid-column-end: 2;
@@ -35,7 +33,7 @@
         color: white;
         background-color: green;
     }
-    .Purple
+    .Purple1
     {
         grid-column-start: 2;
         grid-column-end: 5;
@@ -44,7 +42,7 @@
         color: white;
         background-color: purple;
     }
-    .Yellow
+    .Yellow1
     {
         grid-column-start: 1;
         grid-column-end: 5;
@@ -53,18 +51,16 @@
         color: white;
         background-color: yellow;
     }
-}
-@media only screen and (max-width: 767px) /* Phone */
-{
-    .ColorGrid
+
+    .ColorGrid2
     {
         width: 90vw;
         display: grid;
         grid-gap: 10px;
         grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 50px 50px 50px 50px 50px 50px;
+        grid-template-rows: 100px 100px 100px 100px;
     }
-    .Red
+    .Red2
     {
         grid-column-start: 1;
         grid-column-end: 5;
@@ -73,43 +69,42 @@
         color: white;
         background-color: red;
     }
-    .Blue
+    .Blue2
     {
         grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        color: white;
+        background-color: blue;
+    }
+    .Green2
+    {
+        grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 2;
         grid-row-end: 3;
         color: white;
-        background-color: blue;
+        background-color: green;
     }
-    .Green
+    .Purple2
     {
-        grid-column-start: 1;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        color: white;
+        background-color: purple;
+    }
+    .Yellow2
+    {
+        grid-column-start: 4;
         grid-column-end: 5;
         grid-row-start: 3;
         grid-row-end: 4;
         color: white;
-        background-color: green;
-    }
-    .Purple
-    {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 4;
-        grid-row-end: 5;
-        color: white;
         background-color: purple;
     }
-    .Yellow
-    {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 5;
-        grid-row-end: 6;
-        color: white;
-        background-color: yellow;
-    }
-}
 /*      
             C1  C2  C3  C4   C5
         R1
