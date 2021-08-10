@@ -1,0 +1,181 @@
+        div.divBox1
+        {
+            height: 5px;
+            width: 500px;
+            text-align: center;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            background-color: blue;
+            border-color: cyan;
+            border-width: 5px;
+            border-style: solid;
+
+            padding: 10px;
+        }
+        div.divBox2
+        {
+            height: 20px;
+            width: 500px;
+            text-align: center;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            background-color: blueviolet;
+            border-color: gray;
+            border-width: 15px;
+            border-style: solid;
+
+            padding: 10px;
+        }
+        div.divBox3
+        {
+            height: 5px;
+            width: 250px;
+            text-align: center;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            background-color: goldenrod;
+            border-color: gold;
+            border-width: 5px;
+            border-style: solid;
+
+            padding: 15px;
+        }
+        div.divBox4
+        {
+            height: 10px;
+            width: 75px;
+            text-align: center;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            background-color: green;
+            border-color: blue;
+            border-width: 5px;
+            border-style: solid;
+
+            padding: 15px;
+        }
+        div.divBox5
+        {
+            height: 15px;
+            width: 175px;
+            text-align: center;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            background-color: magenta;
+            border-color: lightsalmon;
+            border-width: 25px;
+            border-style: solid;
+
+            padding: 15px;
+        }
+        div.divBox6
+        {
+            height: 100px;
+            width: 100px;
+            text-align: center;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            background-color: rgb(229, 255, 0);
+            border-color: rgb(127, 206, 0);
+            border-width: 10px;
+            border-style: solid;
+
+            padding: 10px;
+        }
+        div.divBox1:hover
+        {
+            background-color: aqua;
+            border-color: blue;
+        }
+        div.divBox2:hover
+        {
+            height: 10px;
+            width: 550px;
+            text-align: center;
+
+            margin-left: 10;
+            margin-right: auto;
+
+            background-color: grey;
+            border-color: blueviolet;
+            border-width: 5px;
+            border-style: solid;
+
+            padding: 10px;
+        }
+        div.divBox3:hover
+        {
+            height: 75px;
+            width: 75px;
+            text-align: center;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            background-color: goldenrod;
+            border-color: gold;
+            border-width: 5px;
+            border-style: solid;
+
+            padding: 15px;
+        }
+        div.divBox4:hover
+        {
+            height: 225px;
+            width: 175px;
+            text-align: center;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            background-color: lightgreen;
+            border-color: darkblue;
+            border-width: 5px;
+            border-style: solid;
+
+            padding: 5px;
+        }
+        div.divBox5:hover
+        {
+            height: 15px;
+            width: 175px;
+            text-align: center;
+
+            margin-left: 10%;
+            margin-right: 10%;
+
+            background-color: magenta;
+            border-color: lightsalmon;
+            border-width: 25px;
+            border-style: solid;
+
+            padding: 15px;
+        }
+        div.divBox6:hover
+        {
+            height: 75px;
+            width: 75px;
+            text-align: center;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            background-color: rgb(229, 255, 0);
+            border-color: rgb(127, 206, 0);
+            border-width: 5px;
+            border-style: solid;
+
+            padding: 15px;
+        }

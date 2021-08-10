@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- 
+For this assignment, conduct the following:
+
+Make 6 small boxes. Each one, when moused over, should change 2 or 3 different properties of the box that was hovered.
+
+Every event should happen on hover, which you can just use the CSS :hover pseudo-selector for. 
+
+You choose which properties change, but try to vary it between each box. Here's a non-exhaustive list of something you could change about each box:
+
+Background color
+Border (width, color, style)
+Border radius (can target each corner individually if you want)
+Box shadow
+Height/width
+Margin/padding (put some text inside to better see what's happening)
+Position
+Opacity
+Challenge Task (no points deducted for not completing): Learn about the HTML5 <audio> tag and insert some music to play in the background. It's just like you're in the club!
+-->
+<html lang="en-us">
+    <head>
+        <title>CSS Pseudo Selectors & Transitions</title>
+        
+        <link href = "CSSPseudoSelectors&Transitions.css" rel = "stylesheet"/> <!-- Link Style Sheet -->
+    </head>
+    <style>
+        /* Styles can be added here.*/
+        @media only screen and (max-width: 767px) /* Phone */
+        {}
+        @media only screen and (min-width: 768px) and (max-width: 1365px) /* Tablet */
+        {}
+        @media only screen and (min-width: 1366px) and (max-width: 1919px) /* Low Res */
+        {}
+        @media only screen and (max-width: 1920px) /* High Res*/
+        {}
+    </style>
+    <body>
+        <p>This audio file is blank...</p>
+        <audio controls>
+            <source src="" type="audio/mpeg/audio/ogg/mp3">
+          Your browser does not support the audio element.
+        </audio>
+        <p></p>
+        <div class = "divBox1"></div>
+        <p></p>
+        <div class = "divBox2"></div>
+        <p></p>
+        <div class = "divBox3"></div>
+        <p></p>
+        <div class = "divBox4"></div>
+        <p></p>
+        <div class = "divBox5"></div>
+        <p></p>
+        <div class = "divBox6"></div>
+
+        <script src = "JavaScript.js"></script> <!-- Link Javascript -->
+    </body>
+    <script>
+        // Javascript Go's Here
+    </script>
+</html>
