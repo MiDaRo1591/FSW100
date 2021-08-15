@@ -1,0 +1,91 @@
+    .footnotepage
+    {
+    width: 300px;
+    font-size: 10px;
+    font-family: 'Apple', cursive;
+    background-color: lightgrey;
+    padding: 10px;
+    }
+
+    div.logopage
+    {
+    margin: 15px;
+    padding: 5px;
+    }
+    img.logopage
+    {
+    padding: 10px;
+    float: left;
+    }
+    h1.logopage
+    {
+    color: maroon;
+    line-height: 25px;
+    font-family: 'Monoton', cursive;
+    }
+    p.logopage
+    {
+    line-height: 25px;
+    }
+
+
+    .maintextpage
+    {
+    font-size: 20px;
+    margin: 25px; 
+    }
+    h3.maintextpage
+    {
+    font-family: 'Apple', cursive;
+    }
+    p.maintextpage
+    {
+    font-family: 'Dancing Script', cursive;
+    }
+
+    .navbarpage
+    {
+    width: 500px;
+    color: purple;
+    background-color: lightgrey;
+    border-color: gray;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+    }
+@media only screen and (min-width: 768px) and (max-width: 1365px) /* Tablet */
+{
+    .footnotepage
+    {
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    }
+    .navbarpage
+    {
+    width: 500px;
+    color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    }   
+}
+@media only screen and (min-width: 1366px)/* Computer */
+{
+    .footnotepage
+    {
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    }
+    .maintextpage
+    {
+    text-align: center;
+    }
+    .navbarpage
+    {
+    width: 500px;
+    color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
