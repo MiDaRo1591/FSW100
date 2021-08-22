@@ -1,0 +1,147 @@
+.block
+{
+width: 300px;
+font-size: 10px;
+font-family: 'Apple', cursive;
+background-color: cornflowerblue;
+margin: 15px;
+padding: 10px;
+}
+.block:hover
+{
+    cursor: pointer;
+    background-color: blue;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.displayhide
+{
+    display: none;
+    margin: 15px;
+    padding: 10px;
+}
+.displayshow
+{
+    display: inline;
+    margin: 15px;
+    padding: 10px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.footnotepage
+{           
+position: sticky;
+width: 300px;
+font-size: 10px;
+font-family: 'Apple', cursive;
+background-color: lightgrey;
+text-align: center;
+align-content: center;
+margin: 0 auto;
+padding: 10px;   
+bottom: 10px;
+border: 3px solid black;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+div.logopage
+{
+display: grid;
+grid-gap: 10px;
+grid-template-columns: 50px 50px auto;
+grid-template-rows: 50px 50px;
+margin: 15px;
+padding: 5px;
+}
+img.logopage
+{
+padding: 10px;
+float: left;
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+h1.logopage
+{
+color: maroon;
+line-height: 25px;
+font-family: 'Monoton', cursive;
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+p.logopage
+{
+line-height: 25px;
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.maintextpage
+{
+font-size: 20px;
+margin: 25px; 
+}
+h3.maintextpage
+{
+font-family: 'Apple', cursive;
+}
+p.maintextpage
+{
+font-family: 'Dancing Script', cursive;
+}
+img.mainleftpage
+{
+padding: 10px;
+float: left;
+}
+img.mainrightpage
+{
+padding: 10px;
+float: right;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.navbarpage 
+{
+background-color: lightgrey;
+border: 1px solid gray;
+}
+.navbarpage > a 
+{
+width: 55px;
+margin: 2px;
+text-align: center;
+font-size: 15px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 767px) /* Phone */
+{
+    .navbarpage 
+    {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 5px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1365px) /* Tablet */
+{
+    .navbarpage 
+    {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 600px;
+    margin: 15px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1919px) /* Computer */
+{
+    .navbarpage 
+    {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 600px;
+    margin: auto;
+    }
+}
